@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Replit</title>
+</head>
+<body>
+    
+    <button class="button1" onclick="show()">
+        <span><img src="add-user.png" width="18px"></span>
+        <span>Invite</span>
+    </button>
+   
+
+        
+
+     <div class="container" id="con">
+          <div class="box1">
+            <p>Multiplayer</p>
+            <p ><span id="count">0</span>/5</p>
+            <progress id="range" max="5" value=""></progress>
+            <button class="button2">Join Replit Core</button>
+         </div>
+
+          <div class="form">
+            <input type="text" placeholder="Add people by using email or username" id="input">
+            <button class="button3" id="btn" >Invite</button>
+          </div>
+       
+          <div class="box2" >
+               <p id="hide"> No one else is here !</p>            
+               <div id="user"></div>
+          </div>
+
+          <div class="box3">
+               <div class="logo">
+                    <img src="global.png" alt="">
+               </div>
+               <div class="join">
+                    <h4>Private join link</h4>
+                    <p>Anyone with this link can edit files</p>
+               </div>
+               <div class="button4">
+                    <div class="toggle-button" onclick="toggleButton()">
+
+                    </div>
+               </div>   
+          </div>
+
+          <div class="link">
+               <input type="url" id="url" value="https://replit.com/join/vkljmfltrl-musaleshubham">
+               <button id="copyButton">Copy join link</button>
+               <p id="text">Want to revoke access to this link?<span id="newlink"> <a href="#">Generate a new link</a></span></p>
+          </div>
+     </div>
+
+
+     <div class="box5">
+
+     </div>
+
+       
+    
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
