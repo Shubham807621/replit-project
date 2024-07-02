@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: #1c2333;
+
+}
+.button1{
+    margin: 10% 0 0 10%;
+    width: 100px;
+    height: 50px;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 5px;
+    background-color: #1c2333;
+    border: 1px solid  #0079f2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+button img{
+    
+    margin-right: 5px;
+    
+}
+.container{
+    width: 400px;
+    min-height:300px;
+    background-color: #1c2333;
+    margin: 10px 10%;
+    border: 1px solid  #0079f2;
+    border-radius: 10px;
+    color: white;
+    display: none;
+    
+}
+.box1{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+  
+}
+
+.box1 progress{
+    width: 80px;
+}
+.box1 .button2{
+    color: white;
+    background-color: transparent;
+    height: 25px;
+    padding:5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form{
+    width: 90%;
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.form input{
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2b3245;
+    color: white;
+}
+
+.form .button3{
+    color: #0079f2;
+    background-color: #004182;
+    height: 35px;
+    padding:5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    
+}
+
+.box2{
+    margin:auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    color: white;
+    border-bottom: 1px solid black;
+    overflow-y:auto;
+    
+}
+
+
+.userlogo{
+    background-color: #0079f2;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.box2 #hide{
+    width: 90%;
+    margin: auto ;
+    color: white;
+    display: block;
+}
+
+.box2 #user{
+    width: 90%;
+    margin: auto ;
+    color: white;
+    height: 20px;
+    /* height:40px ; */
+    /* background-color: aqua; */
+   
+}
+
+.userlist{
+    width: 180px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 100;
+    /* background-color: bisque; */
+    
+}
+.edit{
+    margin-top: 13px;
+    font-size: 15px;
+    /* background-color: aqua; */
+    height: 20px;
+
+}
+.remove{
+    background: transparent;
+    border: none;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    /* background-color: blueviolet; */
+}
+.box3{
+    margin:auto;
+    margin-top: 10px;
+    width: 90%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: s;
+    
+}
+
+.logo{
+    /* background-color: aqua; */
+    width: 40px;
+}
+.logo img{
+    width: 20px;
+    background-color: #0079f2;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.join{
+    /* background-color: rgb(137, 222, 101); */
+    width: 200px;
+}
+
+.join h4{
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.join p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.button4{
+    margin-left: 40px;
+    width: 60px;
+    height: 30px;
+    background-color: #3c445c;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+    transition: 0.3;
+
+}
+
+.box3 .button4.active{
+   
+    background-color: #0079f2;
+
+    
+}
+.toggle-button{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 28px;
+    height: 27px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button4.active .toggle-button{
+    left: 30px;
+    top: 1px;   
+}
+
+.link{
+    width: 400px;
+    margin: 5px 0;
+    display: none;
+    /* background-color: aqua; */
+}
+
+#url{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    background-color: #2b3245;
+    border-radius:10px 0 0 10px ;
+    color: white;
+    padding-left: 10px;
+}
+
+#copyButton{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #0079f2;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    margin-left: -5px;
+    cursor: pointer;
+
+}
+
+#text{
+    font-size: 13px;
+    margin: 10px 0px 20px 20px;
+}
+
+#newlink a{
+    text-decoration: none;
+    color: #0079f2;
+}
+#newlink a:hover{
+   text-decoration: underline;
+    color: #0079f2;
+}
+
+
+.box5{
+    width: 320px;
+    min-height: 500px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 26%;
+    left: 78%;
+    display: flex;
+    flex-direction: column-reverse;
+    visibility: hidden;
+}
+
+.box6{
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.removeduser{
+    color: white;
+    font-size: 20px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: blue; */
+    width: 100px;
+}
+
+.removed{
+    color: white;
+    font-size: 20px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: yellow; */
+   width: 100px;
+}
+.crossed{
+    width: 50px;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    color: white;    
+}
+
+.box7{
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    margin-left: 60%;
+    padding: 10px;
+
+}
+
+.Link{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+    font-weight: 100;
+}
+
